@@ -1,0 +1,33 @@
+# _config.yml
+
+# Basic Site Settings
+title: Nils DEYBACH            # Your site's title
+description: "Complete explanations on the gradient descent for a 3D gaussian ray traced, 3D reconstruction algorithm"
+url: "https://3dgrt-descent.ndeybach.ovh" # Replace with your site's URL
+baseurl: ""                       # Set to a subdirectory if needed, otherwise leave empty
+
+# Author Settings (Optional)
+author:
+  name: Nils DEYBACH
+  email: nils.deybach@outlook.com
+
+# Build Settings
+# markdown: kramdown              # Markdown engine (not really used if you exclude Markdown)
+# theme: jekyll-theme-primer      # GitHub Pages theme
+# highlighter: rouge              # Syntax highlighter for code snippets
+
+# Plugins
+# plugins:
+#   - jekyll-paginate             # For paginated blog posts, if used
+#   - jekyll-seo-tag              # SEO tags for better search engine optimization
+
+# Exclusions
+exclude:
+  - "**/*.md"                   # Exclude all Markdown files from the build
+
+# Pagination (if you need it)
+# paginate: 5                     # Number of posts per page (if using blog features)
+# paginate_path: "/page:num/"      # URL structure for paginated pages
+
+# Additional Configurations
+# You can add more configurations here as needed, such as collections, permalink settings, etc.
